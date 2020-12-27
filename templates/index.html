@@ -1,0 +1,86 @@
+
+<html>
+<body>
+    <h2>Loan Prediction Form</h2>
+	
+	<h4>Please enter your details below:</h4>
+
+<div>
+  <form action="/predict" method="POST">
+
+    <br>
+    <br>
+    <label for="Gender">Gender</label>
+    <select id="Gender" name="Gender">
+      <option value="0">Male</option>
+      <option value="1">Female</option>
+    </select>
+    <br>
+    <br>
+    <label for="Married">Marital Status</label>
+    <select id="Married" name="Married">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <br>
+    <label for="Dependents">Dependents</label>
+    <select id="Dependents" name="Dependents">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3+</option>
+    </select>
+    <br>
+    <br>
+    <label for="Education">Education</label>
+    <select id="Education" name="Education">
+      <option value="0">Graduate</option>
+      <option value="1">No Graduate</option>
+    </select>
+
+    <br>
+    <br>
+    <label for="Self_Employed">Self_Employed</label>
+    <select id="Self_Employed" name="Self_Employed">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <br>
+    <label for="ApplicantIncome">ApplicantIncome </label>
+    <input type="text" id="ApplicantIncome" name="ApplicantIncome">btw:[0-99999]
+    <br>
+    <br>
+    <label for="CoapplicantIncome">CoapplicantIncome </label>
+    <input type="text" id="CoapplicantIncome" name="CoapplicantIncome">btw:[0-99999]
+    <br><br>
+    <label for="LoanAmount">LoanAmount </label>
+    <input type="text" id="LoanAmount" name="LoanAmount">btw:[0-9999]
+    <br><br>
+    <label for="Loan_Amount_Term">Loan_Amount_Term </label>
+    <input type="text" id="Loan_Amount_Term" name="Loan_Amount_Term">btw:[0-600]
+    <br><br>
+    <label for="Credit_History">Credit_History</label>
+    <select id="Credit_History" name="Credit_History">
+      <option value="0">0</option>
+      <option value="1">1</option>
+    </select>
+    <br>
+    <br>
+    <label for="Property_Area">Property_Area</label>
+    <select id="Property_Area" name="Property_Area">
+      <option value="0">Semiurban</option>
+      <option value="1">Urban</option>
+      <option value="2">Rural</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+  </form>
+   <br><br>
+  {{ prediction_text }}
+  
+</div>
+</body>
+</html>
