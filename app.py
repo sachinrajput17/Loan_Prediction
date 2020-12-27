@@ -16,7 +16,7 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    labels = ["Not Eligible for Loan","Eligible for Loan"]
+    labels = ["Rejected","Approved"]
     int_features = [float(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
 
@@ -27,7 +27,7 @@ def predict():
 
     output = labels[prediction[0]]
 
-    return render_template('index.html', prediction_text='You are  {}'.format(output))
+    return render_template('index.html', prediction_text='{}'.format(output))
 
 
 
