@@ -59,8 +59,6 @@ fit(rf)
 fit(xgb)
 
 
-def Predict(model,data):
-  return model.predict(data)  
   
 import pickle
 filename = 'model.pkl'
