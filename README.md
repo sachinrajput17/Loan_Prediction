@@ -23,11 +23,13 @@ The dataset contains information about Loan Applicants. There are 12 independent
 - Property_Area : The type of location where the applicant’s property lies (Rural, Semiurban, Urban)
 - Loan_Status: Loan granted or not (Y, N)
 
-### Train Data Source ("https://raw.githubusercontent.com/dphi-official/Datasets/master/Loan_Data/loan_train.csv")
+### Train Data Source
+("https://raw.githubusercontent.com/dphi-official/Datasets/master/Loan_Data/loan_train.csv")
+
 ### Credit
 DPHI Community (https://dphi.tech/)
 
 
-#### Loan Prediction app Link
+## Loan Prediction app Link
 https://loanpredictionapp.herokuapp.com/
 
