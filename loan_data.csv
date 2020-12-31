@@ -407,7 +407,7 @@ Female,No,0,Graduate,Yes,2500,0.0,93.0,360.0,,Urban,1
 Male,Yes,0,Graduate,No,4583,5625.0,255.0,360.0,1.0,Semiurban,1
 Male,Yes,0,Graduate,No,7933,0.0,275.0,360.0,1.0,Urban,0
 Male,Yes,,Graduate,Yes,5503,4490.0,70.0,,1.0,Semiurban,1
-Male,Yes,2,Graduate,No,2301,985.7999877999997,78.0,180.0,1.0,Urban,1
+Male,Yes,2,Graduate,No,2301,985.7999877999996,78.0,180.0,1.0,Urban,1
 Male,Yes,0,Graduate,No,4750,2333.0,130.0,360.0,1.0,Urban,1
 ,Yes,0,Graduate,No,16692,0.0,110.0,360.0,1.0,Semiurban,1
 Female,Yes,0,Graduate,No,3625,0.0,108.0,360.0,1.0,Semiurban,1
